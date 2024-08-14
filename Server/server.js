@@ -23,8 +23,7 @@ app.use(cors({
 app.use('/', userRouter);
 app.use("/", categoryRouter);
 app.use("/", transactionRoute) 
-
-app.use(express.static(path.join(__dirname, 'public')));
+ 
 
 app.use(errorHandler);
 
