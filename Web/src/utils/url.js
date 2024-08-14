@@ -1,1 +1,1 @@
-export  const BASE_URL = "http://localhost:7000/api";
+export  const BASE_URL = "https://finance-tracker-app-backend-fvuo.onrender.com/api";
