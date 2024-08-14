@@ -24,6 +24,8 @@ app.use('/', userRouter);
 app.use("/", categoryRouter);
 app.use("/", transactionRoute) 
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(errorHandler);
 
 mongoose.connect("mongodb+srv://vivekram4560:kRUbcnEktJ3jl0FT@cluster0.ez1rj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
