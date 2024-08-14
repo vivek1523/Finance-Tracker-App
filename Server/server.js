@@ -15,9 +15,9 @@ const PORT = process.env.PORT || 6000;
 app.use(express.json());
 
 app.use(cors({
-  origin: 'http://localhost:5173', 
-  methods: 'GET,POST,PUT,DELETE',
-  allowedHeaders: 'Content-Type,Authorization'
+  origin: 'https://finance-tracker-app-frontend-urre.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
 app.use('/', userRouter);
