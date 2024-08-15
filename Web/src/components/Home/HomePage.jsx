@@ -84,7 +84,7 @@ const HeroSection = () => {
       {/* Testimonials */}
       <div className="bg-gray-100 py-20 px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800">
-          What Our Users Say
+          About Us
         </h2>
         <div className="mt-10 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
