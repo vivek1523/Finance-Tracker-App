@@ -92,16 +92,14 @@ const HeroSection = () => {
             <p className="mt-4">
               "This app has revolutionized the way I track my expenses. Highly
               intuitive and user-friendly."
-            </p>
-            <p className="mt-4 font-bold">- Jane Doe</p>
+            </p> 
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <FaQuoteLeft className="text-xl text-gray-400" />
             <p className="mt-4">
               "Finally, a hassle-free way to manage my finances. The insights
               feature is a game changer!"
-            </p>
-            <p className="mt-4 font-bold">- John Smith</p>
+            </p> 
           </div>
         </div>
       </div>
